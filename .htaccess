@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(\w+)\.png$ vtx.php?tx=$1 [L]

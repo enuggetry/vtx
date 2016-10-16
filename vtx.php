@@ -15,7 +15,7 @@
 	
 	// paint text
 	$txtclr = imagecolorallocate($img, 0, 0, 255);
-	imagestring($img, 5, 0, 0, $txt, $txtclr);
+	imagestring($img, 5, 5, 0, $txt, $txtclr);
 	
 	// rotate image
 	$r_img = imagerotate($img, 90, $bkg,1);

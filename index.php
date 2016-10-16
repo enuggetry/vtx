@@ -1,13 +1,11 @@
 <?php
 
 	$txt = $_GET['tx'];	// text string
-	$hstr = $_GET['h'];	// height
-	$h = intval($hstr);
 	
 	// Establish image factors:
 	//$text = 'Sample space';
 	$font_size = 12; // Font size is in pixels.
-	$font_file = './fonts/AUBREY1__.TTF'; // This is the path to your font file.
+	$font_file = './fonts/DroidSans.ttf'; // This is the path to your font file.
 
 	// Retrieve bounding box:
 	$type_space = imagettfbbox($font_size, 0, $font_file, $txt);
@@ -18,7 +16,6 @@
 	
 	$x = 5; // Padding of 5 pixels.
 	$y = $img_h - 5; // So that the text is vertically centered.
-	
 	
 	// replace _ with space
 	$txt = str_replace("_"," ",$txt);
@@ -33,6 +30,7 @@
 	$txtclr = imagecolorallocate($img, 0, 0, 255);
 	//imagestring($img, 5, 5, 0, $txt, $txtclr);
 	imagettftext($img, $font_size, 0, $x, $y, $tx_color, $font_file, $txt);	
+        
 	// rotate image
 	$r_img = imagerotate($img, 90, $bkg,1);
 	imagealphablending($r_img,false);

@@ -19,6 +19,11 @@ A font and size can also be specified:
 ```
 =image("http://vtx.rooby.me/?tx=Go_Vertical,_Yo!!!&size=22&font=blue-highway-cd",3)
 ```
+where, the font can by any one of the fonts in the font directory.  Sized defaults to 12 (12 point).
 
-It generates a transparent PNG so cell background colors will shine through.
-Note: underscore characters are translated to spaces.  But HTML special characters can be used too, I.e.:
+
+The script generates a transparent PNG so cell background colors will shine through.
+Note: underscore characters are translated to spaces for tx= falue.  But HTML special characters can be used too, I.e.:
+```
+http://vtx.rooby.me/?tx=Mother%20Of%20Dragons
+```

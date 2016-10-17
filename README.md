@@ -22,6 +22,3 @@ A font and size can also be specified:
 
 It generates a transparent PNG so cell background colors will shine through.
 Note: underscore characters are translated to spaces.  But HTML special characters can be used too, I.e.:
-```
-http://vtx.rooby.me/?tx=Yo%20Vertical
-```

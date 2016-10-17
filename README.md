@@ -1,5 +1,5 @@
 # VTX
-![Alt text](http://vtx.rooby.me/img/screenshot1.png "Screenshot")
+![Alt text](http://vtx.rooby.me/img/screenshot2.png "Screenshot")
 
 Example: http://bit.ly/2ef7gsx
 

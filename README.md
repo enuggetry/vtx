@@ -15,7 +15,11 @@ In Google Sheet, add this code to a cell:
 ```
 =image("http://vtx.rooby.me/?tx=Yo_Vertical",3)
 ```
-That's all it does for now.
+A font and size can also be specified:
+```
+=image("http://vtx.rooby.me/?tx=Go_Vertical,_Yo!!!&size=22&font=blue-highway-cd",3)
+```
+
 It generates a transparent PNG so cell background colors will shine through.
 Note: underscore characters are translated to spaces.  But HTML special characters can be used too, I.e.:
 ```
